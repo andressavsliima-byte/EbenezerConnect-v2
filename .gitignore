@@ -1,0 +1,35 @@
+git init
+# Node
+node_modules/
+.vite/
+dist/
+build/
+
+# Env
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Uploads
+backend/uploads/
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# IDE / OS
+.vscode/
+.DS_Store
+
+# Swap / temp
+*.swp
+*.swo
+*~
+
+# Archives
+*.zip
+deployable.zip
+EbenezerConnect-package.zip
